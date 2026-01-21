@@ -49,6 +49,7 @@
 /* main style */
 /* navbar style */
 .navbar{
+    max-width: 1600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,7 +76,7 @@
 .banner{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,5 +142,26 @@
     font-weight: 600;
     background: transparent;
 
+}
+
+/* about section */
+.about{
+    padding: 50px 200px 120px 200px;
+    max-width: 1200px;
+    background-color: #1A0B2E;
+}
+
+.about .about-text{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.about .about-statistics{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+.about-statistics h2{
+    color: #00FF88;
+    padding-bottom: 10px;
 }
 
