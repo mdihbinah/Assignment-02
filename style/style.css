@@ -16,8 +16,6 @@
     text-decoration: none;
     font-size: 3.75rem;
     font-weight: 900;
-
-
 }
 .btn{
     color: #FFFFFF;
@@ -99,9 +97,18 @@
 .b-img .b-img1{
     background: transparent;
 }
+@keyframes ani {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .b-img .b-img2{
     position: absolute;
     background: transparent;
+    animation: ani 2s infinite alternate;
 }
 .b-img .b-img3{
     color: #1A0B2E;
