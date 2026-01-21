@@ -210,3 +210,60 @@
     padding: 40px;
     text-align: start;
 }
+
+/* Featured Episodes section    */
+.episode{
+    max-width: 1200px;
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+}
+.episode-f{
+    padding-bottom: 120px;
+}
+.episode-title{
+    text-align: center;
+}
+.episode-f h2{
+    padding-bottom: 40px;
+}
+.episode-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.episode .card{
+    max-width: 300px;
+    border-radius: 90px;
+    
+}
+.episode .card-text{
+    padding: 10px;
+    background-color: #9100F8;
+}
+.episode .card h2, h4{
+    padding-bottom: 12px;
+    background: transparent;
+}
+
+.host-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #704ba05a;
+    border-radius: 30px;
+    gap: 25px;
+    padding: 40px;
+
+}
+.host h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.host-card h4{
+    padding: 16px 0px;
+}
+.host-social{
+    display: flex;
+    gap: 15px;
+}
+
