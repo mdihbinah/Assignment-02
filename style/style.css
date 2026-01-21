@@ -71,3 +71,75 @@
     color: transparent;
 }
 
+/* bnner style */
+.banner{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .b{
+    max-width: 550px;
+    background: transparent;
+}
+
+.banner .b-img{
+    display: flex;
+    background: transparent;
+    max-width: 350px;
+    max-height: 350px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px 40px 100px;
+}
+.b-img .b-img1{
+    background: transparent;
+}
+.b-img .b-img2{
+    position: absolute;
+    background: transparent;
+}
+.b-img .b-img3{
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #00FF88;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+.b-text{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.b-text h1, h4{
+    background: transparent;
+}
+.b-text h4{
+    padding: 8px 0px 25px 0px;
+}
+.banner-btn{
+    padding: 0px 80px;
+}
+.b-btn1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.b-btn2{
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+
+}
+
